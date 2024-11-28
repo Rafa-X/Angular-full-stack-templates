@@ -1,9 +1,0 @@
-{
-    "C1":"Forward all the requests send from Frontend in /api, to the server",
-    "/api/*":{
-        "target": "http://localhost:8080",
-        "secure": false,
-        "loglevel": "debug",
-        "changeOrigin": true
-    }
-}
